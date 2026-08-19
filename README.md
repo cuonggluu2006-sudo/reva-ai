@@ -1,16 +1,24 @@
-# React + Vite
+# REVA AI - Intelligent Lead Management Dashboard 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **REVA AI**, a modern, AI-integrated Customer Relationship Management (CRM) and Lead tracking dashboard. This platform is designed to automate lead evaluation, score customer potential using AI, and manage reviews efficiently.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://reva-ai-kohl.vercel.app](https://reva-ai-kohl.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+- **AI Lead Scoring:** Automatically calculates an `ai_score` (0-100) to prioritize high-value customers.
+- **Smart Review Analysis:** Analyzes customer feedback sentiment and risk levels.
+- **AI Suggested Replies:** Generates automated, context-aware responses for customer reviews.
+- **Modern UI/UX:** Fast, responsive, and intuitive dashboard interface.
 
-## React Compiler
+## 🛠 Tech Stack
+- **Frontend:** React / Vite (Fast and optimized build)
+- **Backend & Database:** Supabase (PostgreSQL with Row Level Security)
+- **Deployment:** Vercel (CI/CD automated pipeline)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🗄 Database Schema Highlights
+The platform heavily relies on a robust PostgreSQL database. Key tables include:
+- `leads`: Tracks customer identities, statuses, AI scores, and suggested actions.
+- `reviews`: Stores customer feedback, ratings, sentiment analysis, and AI-suggested replies.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*This project demonstrates my ability to build full-stack, AI-driven web applications and deploy them to production environments.*
