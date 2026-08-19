@@ -22,3 +22,4 @@ The platform heavily relies on a robust PostgreSQL database. Key tables include:
 
 ---
 *This project demonstrates my ability to build full-stack, AI-driven web applications and deploy them to production environments.*
+link video https://youtu.be/hlRsKFvxNvI
